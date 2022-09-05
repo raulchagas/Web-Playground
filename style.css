@@ -1,0 +1,48 @@
+body{
+	background: rgb(240,240, 240);
+	color: rgb(20, 20, 20);
+	font-family: Helvetica;
+}
+h1{
+	font-family: Courier;
+	font-size: 50px;
+	color: red;
+}
+h2{
+
+	font-size: 18px;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+a:hover{
+	text-decoration: none;
+	color: green;
+}
+
+#banner{
+	background-image: url("https://picsum.photos/1000/600?random");
+	background-size: cover;
+	padding: 150px 0;
+	text-align: center;
+	color: white;
+
+}
+
+.card{
+	text-align: center;
+}
+
+#footer{
+	background-color: #9BA3EB;
+	padding: 50px;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
